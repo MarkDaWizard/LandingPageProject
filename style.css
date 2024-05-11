@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 180px;
+    padding-bottom: 0;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+.headerLogo {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.pageBody {
+    
+    
+}
+
+
+
+.bodyIntro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 120px 180px;
+    background-color: #1F2937;
+    color: white;
+    align-items: stretch;
+}
+
+h1, .heroMain {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* #slideshowHeader {
+    padding: 30px;
+} */
+
+p, .heroSecondary {
+    font-size: 18px;
+    margin: 0;
+}
+
+.bodyIntro .bodyBox {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 15px;
+}
+
+.signUpButton {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    padding: 10px;
+    max-width: 120px;
+    font-size: 18px;
+}
+
+#imageBox {
+    background-color: rgb(161, 161, 161);
+    align-items: center;
+    justify-content: center;
+}
+
+.bodySlideshow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 180px;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 140px;
+}
+
+#cardImage {
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-style: solid;
+    
+    min-height: 120px;
+    min-width: 120px;
+}
