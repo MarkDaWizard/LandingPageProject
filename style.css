@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: 'roboto', monospace;
 }
 
 a {
@@ -103,7 +104,7 @@ p, .heroSecondary {
 .cardsContainer {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     /* height: 200px; */
     /* align-items: stretch; */
 }
@@ -120,7 +121,7 @@ p, .heroSecondary {
 
 #cardImage {
     border-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 22px;
     border-style: solid;
     padding-top: 98%;
 }
@@ -174,7 +175,7 @@ p, .heroSecondary {
     margin-left: auto;
     border-style: solid;
     border-color: white;
-    flex: 1 25%;
+    flex: 1;
 }
 
 .footer {
